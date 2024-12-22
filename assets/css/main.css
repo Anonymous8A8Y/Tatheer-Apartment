@@ -1090,6 +1090,8 @@ section,
 .features .feature-box:hover i {
   background: var(--accent-color);
   color: var(--contrast-color);
+  box-shadow: 0px 5px 5px rgba(64, 255, 0, 0.566);
+  transform: translateY(-0px);
 }
 
 /*--------------------------------------------------------------
