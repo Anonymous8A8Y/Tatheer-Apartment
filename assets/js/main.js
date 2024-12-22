@@ -22,43 +22,53 @@
   document.addEventListener('scroll', toggleScrolled);
   window.addEventListener('load', toggleScrolled);
 
-  /**
-   * Mobile nav toggle
-   */
-  const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
+/**
+ * Mobile nav toggle
+ */
+const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
+const body = document.querySelector('body');
 
-  function mobileNavToogle() {
-    document.querySelector('body').classList.toggle('mobile-nav-active');
-    mobileNavToggleBtn.classList.toggle('bi-list');
-    mobileNavToggleBtn.classList.toggle('bi-x');
-  }
-  if (mobileNavToggleBtn) {
-    mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
-  }
+// Ensure the function name is consistent
+function mobileNavToggle() {
+  body.classList.toggle('mobile-nav-active');
+  mobileNavToggleBtn.classList.toggle('bi-list');
+  mobileNavToggleBtn.classList.toggle('bi-x');
+}
 
-  /**
-   * Hide mobile nav on same-page/hash links
-   */
-  document.querySelectorAll('#navmenu a').forEach(navmenu => {
-    navmenu.addEventListener('click', () => {
-      if (document.querySelector('.mobile-nav-active')) {
-        mobileNavToogle();
-      }
-    });
+// Event listener for the toggle button
+if (mobileNavToggleBtn) {
+  mobileNavToggleBtn.addEventListener('click', mobileNavToggle);
+}
 
+/**
+ * Hide mobile nav on same-page/hash links
+ */
+document.querySelectorAll('#navmenu a').forEach(navmenu => {
+  navmenu.addEventListener('click', () => {
+    if (body.classList.contains('mobile-nav-active')) {
+      mobileNavToggle();  // Close nav after clicking
+    }
   });
+});
 
-  /**
-   * Toggle mobile nav dropdowns
-   */
-  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
-    navmenu.addEventListener('click', function(e) {
-      e.preventDefault();
-      this.parentNode.classList.toggle('active');
-      this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
-      e.stopImmediatePropagation();
-    });
+/**
+ * Toggle mobile nav dropdowns
+ */
+document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
+  navmenu.addEventListener('click', function(e) {
+    e.preventDefault();
+    const parentLi = this.parentNode;
+    const dropdownMenu = parentLi.nextElementSibling;
+    
+    // Toggle the active class for dropdown
+    parentLi.classList.toggle('active');
+    dropdownMenu.classList.toggle('dropdown-active');
+    
+    // Prevent event propagation
+    e.stopImmediatePropagation();
   });
+});
+
 
   /**
    * Scroll top button
