@@ -11,6 +11,38 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+body {
+  --sb-track-color: #51c93623;
+  --sb-thumb-color: #51c936;
+  --sb-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 30px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+:root {
+  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Nunito",  sans-serif;
+  --nav-font: "Poppins",  sans-serif;
+}
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Nunito",  sans-serif;
@@ -148,7 +180,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
-  backdrop-filter: blur(20px); /* Adjust the blur value as needed */
+  backdrop-filter: blur(25px); /* Adjust the blur value as needed */
 }
 
 .header .logo {
