@@ -51,11 +51,11 @@ body::-webkit-scrollbar-thumb {
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #121212; /* Background color for the entire website, including individual sections */
+  --background-color: #0c0c0c; /* Background color for the entire website, including individual sections */
   --default-color: #E0E0E0; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #398b26; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #51c936; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #1E1E1E; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color: #191919; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #FFFFFF; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -176,11 +176,11 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: rgba(0, 0, 0, 0.7); /* White with 70% opacity */
+  background-color: rgba(0, 0, 0, 0.14);
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
-  backdrop-filter: blur(25px); /* Adjust the blur value as needed */
+  backdrop-filter: blur(35px);
 }
 
 .header .logo {
