@@ -2788,6 +2788,7 @@ section,
   width: 3.5em;
   height: 2em;
   right: 20px;
+  opacity: 90%;
 }
 
 /* Hide default HTML checkbox */
