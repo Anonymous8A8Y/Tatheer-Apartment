@@ -41,7 +41,7 @@ Welcome to **Tatheer Apartment**, a fully responsive and feature-rich web applic
 
 Visit the live version of the application here: [Tatheer Apartment](https://tatheer-apartment.vercel.app/)
 
-[![Demo](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)](https://github.com/Anonymous8A8Y/Tatheer-Apartment/blob/main/assets/img/demo.png?raw-true)
+[![Demo](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)](https://github.com/Anonymous8A8Y/Tatheer-Apartment/blob/main/assets/img/demo.png?raw=true)
 
 ---
 
