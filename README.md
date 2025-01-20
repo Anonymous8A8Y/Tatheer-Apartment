@@ -41,7 +41,6 @@ Welcome to **Tatheer Apartment**, a fully responsive and feature-rich web applic
 
 Visit the live version of the application here: [Tatheer Apartment](https://tatheer-apartment.vercel.app/)
 
-[![Demo](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)](https://github.com/Anonymous8A8Y/Tatheer-Apartment/blob/main/assets/img/demo.png?raw=true)
 
 ---
 
@@ -65,7 +64,8 @@ Here is an overview of the project's file structure:
 
 ```plaintext
 Tatheer Apartment/
-├── index.html       # Main HTML file
+├── index.html       # Main HTML file![demo](https://github.com/user-attachments/assets/cbbbfe85-e09c-4dd8-95fc-871145b22380)
+
 ├── assets/
 │   ├── css/
 │   │   └── main.css # Main CSS file
