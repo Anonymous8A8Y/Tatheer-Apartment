@@ -26,7 +26,7 @@ Welcome to **Tatheer Apartment**, a fully responsive and feature-rich web applic
 
 ## 🛶 Features
 
-- **🔧 Responsive Design**: Ensures optimal viewing on all devices.
+- ***🔧 Responsive Design***: Ensures optimal viewing on all devices.
 - **🌌 Dark Mode Toggle**: Users can switch between light and dark modes.
 - **🔄 Dynamic Navigation**: Smooth scrolling and active link highlights.
 - **🌐 Interactive Components**:
