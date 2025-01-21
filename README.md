@@ -32,7 +32,7 @@ Welcome to **Tatheer Apartment**, a fully responsive and feature-rich web applic
 - ***🌐 Interactive Components***:
   - Facilities and services details.
   - Frequently Asked Questions (FAQ) section.
-- ***🔽 Back-to-Top Button***: Smoothly scrolls users back to the top of the page.
+- ***🔝 Back-to-Top Button***: Smoothly scrolls users back to the top of the page.
 - ***🌍 Google Maps Integration****: Links to the apartment's location.
 - ***📱 AOS (Animate On Scroll)***: Smooth animations on scroll.
 - ***💨 Paked with ultimate Animations***: Animations on each and every element in the page for better user experience.
