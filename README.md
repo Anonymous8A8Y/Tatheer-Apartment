@@ -34,6 +34,8 @@ Welcome to **Tatheer Apartment**, a fully responsive and feature-rich web applic
   - Frequently Asked Questions (FAQ) section.
 - **🔽 Back-to-Top Button**: Smoothly scrolls users back to the top of the page.
 - **🌍 Google Maps Integration**: Links to the apartment's location.
+- **AOS (Animate On Scroll)**: Smooth animations on scroll.
+- **Paked with ultimate Animations**: Animations on each and every element in the page for better user experience.
 
 ---
 
@@ -51,11 +53,9 @@ Visit the live version of the application here: [Tatheer Apartment](https://tath
 - **CSS3**: Styling and animations.
 - **JavaScript**: Interactivity and dynamic behavior.
 - **Bootstrap**: Framework for responsive design.
-- **AOS (Animate On Scroll)**: Smooth animations on scroll.
 
 ### Deployment:
 - **Vercel**: Seamless hosting and continuous deployment.
-
 ---
 
 ## 📁 Project Structure
